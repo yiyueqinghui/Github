@@ -1,0 +1,25 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   color: #000000;
+}
+a{
+	text-decoration: none;
+}
+ul li{
+	list-style: none;
+}
+.lf{
+	float: left;
+}
+.rf{
+	float: right;
+}
+.clearfix:before,
+.clearfix:after{
+	content: "";
+	height: 0;
+	display: table;
+	clear: both;
+}
